@@ -5,7 +5,7 @@ export const ministries = [
     type: "Men",
     badgeClass: "bg-blue-100 text-blue-900",
     description:
-      "The men's guild of the Anglican Church of Kenya — focused on spiritual growth, leadership, family responsibility, and service in church and community.",
+      "The men's fellowship of the Anglican Church of Kenya — focused on spiritual growth, leadership, family responsibility, and service in church and community.",
     meetingDay: "Sunday",
 
     time: "2:00 PM – 4:00 PM",

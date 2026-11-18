@@ -1,5 +1,6 @@
-<header id="site-header"
-  class="relative bg-white/95 backdrop-blur-xl border-b border-gray-200/60 transition-all duration-300">
+<header
+  id="site-header"
+  class="sticky top-0 z-[1000] bg-white/95 backdrop-blur-xl border-b border-gray-200/60 transition-all duration-300">
   <!-- ANNOUNCEMENT BAR -->
   <div class="bg-ack-purple text-white text-sm border-b border-white/10">
     <div class="mx-auto flex flex-col lg:flex-row items-center justify-between
@@ -66,7 +67,7 @@
   </div>
 
   <!-- MAIN NAVIGATION -->
-  <nav class="sticky top-0 z-[100] bg-white/95 backdrop-blur-xl
+  <nav class=" bg-white/95 backdrop-blur-xl
          border-b border-gray-200/60
          mx-auto flex items-center justify-between
          px-4 lg:px-6 py-3" aria-label="Main navigation">
@@ -570,8 +571,8 @@
 
     // Scroll shadow effect
     const handleScroll = () => {
-      header.classList.toggle("scrolled", window.scrollY > 20);
-    };
+    header.classList.toggle("scrolled", window.scrollY > 20);
+};
 
     handleScroll();
 
